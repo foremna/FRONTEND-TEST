@@ -1,0 +1,111 @@
+
+    //= template/header.html
+
+    <section class="content">
+        <div class="content__block">
+            <div class="container">
+               <div class="profile">
+                   <p class="profile__title">Анкета</p>
+               </div>
+               <form action="#" method="get">
+                   <div id="information" class="profile__info">
+                        <p class="profile__title profile__title--information">Личная информация</p>
+                        <div class="profile__inputs">
+                            <label class="input-container"><input type="text" value="Пенькова Лада Сергеевна" placeholder=" "><span>ФИО</span></label>
+                            <div class="select-container">
+                                <div class="select-box">
+                                <div class="options-container">
+                                    <div class="option">
+                                        <input type="radio" class="radio" id="1999" name="category">
+                                        <label for="1999">1999</label>
+                                    </div>
+                                    <div class="option">
+                                        <input type="radio" class="radio" id="1998" name="category">
+                                        <label for="1998">1998</label>
+                                    </div>
+                                    <div class="option">
+                                        <input type="radio" class="radio" id="1997" name="category">
+                                        <label for="1997">1997</label>
+                                    </div>
+                                    <div class="option">
+                                        <input type="radio" class="radio" id="1996" name="category">
+                                        <label for="1996">1996</label>
+                                    </div>
+                                    <div class="option">
+                                        <input type="radio" class="radio" id="1995" name="category">
+                                        <label for="1995">1995</label>
+                                    </div>
+                                    <div class="option">
+                                        <input type="radio" class="radio" id="1994" name="category">
+                                        <label for="1994">1994</label>
+                                    </div>
+                                    <div class="option">
+                                        <input type="radio" class="radio" id="1993" name="category">
+                                        <label for="1993">1993</label>
+                                    </div>
+                                    <div class="option">
+                                        <input type="radio" class="radio" id="1992" name="category">
+                                        <label for="1992">1992</label>
+                                    </div>
+                                </div>
+                                <div class="selected">
+                                    2001
+                                </div>
+                                </div>
+                            </div>
+                            <label class="input-container"><input type="text" value="Гулькевичи" placeholder=" "><span>Место проживания</span></label>
+                            <label class="input-container"><input type="text" value="penkols" placeholder=" "><span>Skype</span></label>
+                            <label class="input-container"><input type="text" value="whitethe2001@gmail.com" placeholder=" "><span>E-mail</span></label>
+                        </div>
+                    </div>
+                    <div id="experience" class="profile__info">
+                        <p class="profile__title profile__title--experience">Расскажите о своем опыте</p>
+                        <div class="profile__checkboxes">
+                            <div class="profile__checkboxes-block">
+                                <label class="checkbox-container"><input class="visually-hidden" type="checkbox" name="" checked><span>БЭМ/OOCSS</span></label>
+                                <label class="checkbox-container"><input class="visually-hidden" type="checkbox" name="" checked><span>Stylus/LESS/SASS</span></label>
+                                <label class="checkbox-container"><input class="visually-hidden" type="checkbox" name="" checked><span>Работаю с SVG</span></label>
+                            </div>
+                            <div class="profile__checkboxes-block">
+                                <label class="checkbox-container"><input class="visually-hidden" type="checkbox" name="" checked><span>Верстаю семантично</span></label>
+                                <label class="checkbox-container"><input class="visually-hidden" type="checkbox" name="" checked><span>ES2015/ES2016</span></label>
+                                <label class="checkbox-container"><input class="visually-hidden" type="checkbox" name="" checked><span>Gulp/GRUNT</span></label>
+                            </div>
+                            <div class="profile__checkboxes-block">
+                                <label class="checkbox-container"><input class="visually-hidden" type="checkbox" name=""><span>Webpack</span></label>
+                                <label class="checkbox-container"><input class="visually-hidden" type="checkbox" name="" checked><span>jQuery</span></label>
+                                <label class="checkbox-container"><input class="visually-hidden" type="checkbox" name="" checked><span>Ипользую Git</span></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="js" class="profile__info">
+                        <p class="profile__title profile__title--js">Уровень владения JavaScript</p>
+                        <div class="range-container">
+                            <div class="range-descriptions" id="range-description">
+                              <span class="range-description">Не владею</span>
+                              <span class="range-description">Использую готовые решения</span>
+                              <span class="range-description">Использую готовые решения и умею их переделывать</span>
+                              <span class="range-description">Пишу сложный JS с нуля</span>
+                            </div>
+                            <label class="range-label">
+                              <input type="range" id="range" min="0" max="4">
+                              <div class="range-gradient"></div>
+                              <div class="range-stub" id="range-stub"></div>
+                              <div class="range-cursor" id="range-cursor"></div>
+                            </label>
+                          </div>
+                    </div>
+                    <div id="about" class="profile__info">
+                        <p class="profile__title profile__title--about">Расскажите о себе</p>
+                        <span class="profile__text">Напишите несколько предложений, чем привлекла наша вакансия и что Вы ожидаете от работы у нас.</span>
+                        <div class="textarea-container"><textarea placeholder="Понравилась тем, что...">Понравилась тем, что я мечтаю работать в вашей компании с того самого времени, когда я только начинала учиться верстке. И тем, что я полностью подхожу Вам, по всем пунктам. Ожидаю крутые, крупные проекты и хорошую команду.</textarea></div>
+                    </div>
+                    <div class="button-wrapper">
+                        <button class="button button--submit" type="submit"><span>Готово</span></button>
+                    </div>
+               </form>
+            </div>
+        </div>
+    </section>
+    //= template/footer.html
+
